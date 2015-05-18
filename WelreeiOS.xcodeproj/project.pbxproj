@@ -16,6 +16,10 @@
 		95D51C611AF064EE00E64C80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D51C5F1AF064EE00E64C80 /* LaunchScreen.xib */; };
 		95D51C6D1AF064EE00E64C80 /* WelreeiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D51C6C1AF064EE00E64C80 /* WelreeiOSTests.m */; };
 		95D51C7C1AF1D38700E64C80 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D51C7A1AF1D38700E64C80 /* LoginViewController.m */; };
+		95E64A601B066C1F00C190AD /* MenuDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E64A5F1B066C1F00C190AD /* MenuDrawViewController.m */; };
+		95E64A631B067BB100C190AD /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E64A621B067BB100C190AD /* MenuViewController.m */; };
+		95E64A661B06BA9D00C190AD /* DisplayContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E64A651B06BA9D00C190AD /* DisplayContentSegue.m */; };
+		95E64A691B0A6E0C00C190AD /* ButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E64A681B0A6E0C00C190AD /* ButtonHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,14 @@
 		95D51C6C1AF064EE00E64C80 /* WelreeiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelreeiOSTests.m; sourceTree = "<group>"; };
 		95D51C7A1AF1D38700E64C80 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		95D51C7B1AF1D38700E64C80 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		95E64A5E1B066C1F00C190AD /* MenuDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDrawViewController.h; sourceTree = "<group>"; };
+		95E64A5F1B066C1F00C190AD /* MenuDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuDrawViewController.m; sourceTree = "<group>"; };
+		95E64A611B067BB100C190AD /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		95E64A621B067BB100C190AD /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		95E64A641B06BA9D00C190AD /* DisplayContentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayContentSegue.h; sourceTree = "<group>"; };
+		95E64A651B06BA9D00C190AD /* DisplayContentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayContentSegue.m; sourceTree = "<group>"; };
+		95E64A671B0A6E0C00C190AD /* ButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonHandler.h; sourceTree = "<group>"; };
+		95E64A681B0A6E0C00C190AD /* ButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonHandler.m; sourceTree = "<group>"; };
 		E77B9D427961C850EA5BCFF3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +152,14 @@
 			children = (
 				95D51C7A1AF1D38700E64C80 /* LoginViewController.m */,
 				95D51C7B1AF1D38700E64C80 /* LoginViewController.h */,
+				95E64A5E1B066C1F00C190AD /* MenuDrawViewController.h */,
+				95E64A5F1B066C1F00C190AD /* MenuDrawViewController.m */,
+				95E64A611B067BB100C190AD /* MenuViewController.h */,
+				95E64A621B067BB100C190AD /* MenuViewController.m */,
+				95E64A641B06BA9D00C190AD /* DisplayContentSegue.h */,
+				95E64A651B06BA9D00C190AD /* DisplayContentSegue.m */,
+				95E64A671B0A6E0C00C190AD /* ButtonHandler.h */,
+				95E64A681B0A6E0C00C190AD /* ButtonHandler.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -289,8 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D51C561AF064EE00E64C80 /* AppDelegate.m in Sources */,
+				95E64A601B066C1F00C190AD /* MenuDrawViewController.m in Sources */,
+				95E64A661B06BA9D00C190AD /* DisplayContentSegue.m in Sources */,
 				95D51C531AF064EE00E64C80 /* main.m in Sources */,
 				95D51C7C1AF1D38700E64C80 /* LoginViewController.m in Sources */,
+				95E64A631B067BB100C190AD /* MenuViewController.m in Sources */,
+				95E64A691B0A6E0C00C190AD /* ButtonHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
